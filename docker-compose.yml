@@ -1,8 +1,0 @@
-version: '3'
-services:
-  php-app:
-    build: ./php
-    ports:
-      - '8060:80'
-  mysql-db:
-    build: ./mysql
